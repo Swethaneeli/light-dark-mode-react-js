@@ -1,0 +1,74 @@
+/* Write your CSS here */
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: #000000;
+  text-align: center;
+}
+
+.light-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  background-color: #000000;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: #000000;
+  text-align: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 26px;
+  text-align: center;
+}
+
+.light-heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 26px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 46px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .light-heading {
+    font-size: 46px;
+  }
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button {
+  color: #000000;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  border-radius: 5px;
+  padding: 16px;
+}
